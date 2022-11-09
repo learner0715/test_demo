@@ -1,5 +1,5 @@
 #--------------simple pyramid-------------------#
-"""
+
 def python(n):
     for i in range(0,n):
         for j in range(0,i+1):
@@ -7,10 +7,9 @@ def python(n):
         print("\r")
 n = int(input())
 python(n)
-"""
 
 #---------------using list------------------------#
-"""
+
 def python(n):
     mylist = []
     for i in range(1, n+1):
@@ -18,10 +17,10 @@ def python(n):
     print("\n".join(mylist))
 n = int(input())
 python(n)
-"""
+
 
 #---------------after 180 rotation----------------#
-"""
+
 def python(n):
     k = 2*n-2
     for i in range(0,n):
@@ -33,7 +32,6 @@ def python(n):
         print("\r")
 n = int(input())
 python(n)
-"""
 
 #-------------printing triangle-------------------#
 
